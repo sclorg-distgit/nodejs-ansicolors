@@ -8,7 +8,7 @@
 
 Name:           %{?scl_prefix}nodejs-ansicolors
 Version:        0.3.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Functions that surround a string with ansicolor codes so it prints in color.
 Url:            https://github.com/thlorenz/ansicolors
 Source0:        http://registry.npmjs.org/ansicolors/-/ansicolors-0.3.2.tgz
@@ -45,6 +45,9 @@ rm -rf %buildroot
 %doc README.md LICENSE
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.3.2-2
+- rebuilt
+
 * Wed Jan 29 2014 Tomas Hrcka <thrcka@redhat.com> - 0.3.2-1
 - initial build 
 
